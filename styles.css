@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url("./images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    font-family: Bai Jamjuree;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 133px;
+}
+
+.headtitle {
+    margin-top: 64px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.521739px;
+    color: #4C545C;
+}
+
+.headdesc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+}
+
+.green {
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    height: 56px;
+    width: 311px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.green:hover {
+    background: #98e0d5;
+}
+
+.links {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.blue {
+    background: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    height: 56px;
+    width: 311px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.blue:hover {
+    background: #a1acfc;
+}
+
+.buttons {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.topictitle {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+    width: 311px;
+    height: 70px;
+}
+
+.topicdesc {
+    width: 311px;
+    height: 130px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+}
+
+.tvgrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv {
+    width: 312px;
+    height: 238px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.tvtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+
+.tvdesc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    height: 78px;
+    width: 311px;
+
+}
+
+.top {
+    margin-top: 0px;
+}
+
+.tvblock {
+    margin-top: 48px;
+}
+
+.devices {
+    width: 375px;
+    display: flex;
+    justify-self: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.textgrid {
+    margin-top: 100px;
+}
+
+.texttitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+    /* margin-top: 40px; */
+}
+
+.textdesc {
+    width: 311px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 18px;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+}
+
+.brand {
+    width: 139px;
+    margin-top: 57px;
+}
+
+.lastdesc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    height: 104px;
+    width: 311px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(158, 171, 178, 1);
+    margin-top: 180px;
+    height: 500px;
+}
+
+.footlogo {
+    height: 45px;
+    width: 45px;
+
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icons {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cont {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgba(76, 84, 92, 1);
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-image: url("./images/bg-header-desktop.png");
+    }
+
+    .store {
+        margin-top: 50px;
+    }
+
+    .headtitle {
+        /* height: 58px; */
+        width: 730px;
+    }
+
+    .headdesc {
+        height: 60px;
+        width: 730px;
+    }
+
+    .topictitle,
+    .topicdesc {
+        width: 730px;
+    }
+
+    .tvgrid {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .tv {
+        height: 572px;
+        width: 752px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .tvtext {
+        margin-left: 139px;
+        margin-top: 15px;
+    }
+
+    .tvdesc {
+        width: 350px;
+    }
+
+    .tvtitle,
+    .tvdesc {
+        text-align: inherit;
+    }
+
+    .textdesc {
+        width: 350px;
+    }
+
+    .topic {
+        margin-top: 130px;
+    }
+
+    .dev {
+        display: flex;
+        justify-content: center;
+    }
+
+    .devices {
+        width: 750px;
+    }
+
+    .textgrid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .brands {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer {
+        height: 150px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .col {
+        text-align: inherit;
+    }
+
+    .icons {
+        cursor: pointer;
+    }
+
+    .aqua {
+        cursor: pointer;
+        filter: hue-rotate(270deg);
+    }
+
+    .cont:hover {
+        color: rgba(38, 187, 164, 1);
+    }
+
+    .imhov:hover {
+        filter: hue-rotate(45deg) saturate(200%) brightness(200%);
+        color: blue;
+    }
+}
